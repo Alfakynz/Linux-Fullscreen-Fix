@@ -13,7 +13,7 @@ void setFullscreen(HWND hwnd) {
 
     MONITORINFO mi = { sizeof(mi) };
     GetMonitorInfo(
-        MonitorFromWindow(hwnd, MONITOR_DEFAULTTONEAREST),
+        MonitorFromWindow(hwnd, MONITOR_DEFAULTTOPRIMARY),
         &mi
     );
 
