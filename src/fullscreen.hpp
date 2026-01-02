@@ -1,6 +1,11 @@
 #pragma once
 #include <Windows.h>
 
+// Get the Geometry Dash window handle
 HWND getGDWindow();
-void setFullscreen(HWND hwnd);
+
+// Apply or remove fullscreen
+void applyFullscreen(HWND hwnd, bool enable);
+
+// Toggle fullscreen manually
 void toggleFullscreen(HWND hwnd);
