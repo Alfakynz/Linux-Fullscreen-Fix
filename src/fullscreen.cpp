@@ -50,7 +50,3 @@ void applyFullscreen(HWND hwnd, bool enable) {
         isFullscreen = false;
     }
 }
-
-void toggleFullscreen(HWND hwnd) {
-    applyFullscreen(hwnd, !isFullscreen);
-}

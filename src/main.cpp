@@ -1,4 +1,5 @@
 #include <Geode/Geode.hpp>
+//#include <Geode/cocos/platform/win32/CCEGLView.h>
 #include "fullscreen.hpp"
 #include <thread>
 #include <chrono>
@@ -22,6 +23,14 @@ bool isWindowFullscreen(HWND hwnd) {
             r.right >= mi.rcMonitor.right &&
             r.bottom >= mi.rcMonitor.bottom);
 }
+
+/* Trying to find a way to work with the GD options
+bool isWindowFullscreen() {
+    auto view = cocos2d::CCEGLView::sharedOpenGLView();
+    return view && view->getIsFullscreen();
+}
+*/
+
 
 $execute {
     std::thread([]{
