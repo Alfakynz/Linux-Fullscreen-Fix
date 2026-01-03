@@ -5,7 +5,7 @@
   },
   "id": "alfakynz.linux-fullscreen-fix",
   "name": "Linux Fullscreen Fix",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "developer": "Alfakynz",
   "description": "A Geometry Dash mod that fixes fullscreen issues on Linux with Hyprland",
   "tags": ["offline", "bugfix"],
