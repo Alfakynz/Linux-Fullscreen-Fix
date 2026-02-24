@@ -1,15 +1,19 @@
 {
-  "geode": "4.10.0",
+  "geode": "5.0.1",
   "gd": {
-    "win": "2.2074"
+    "win": "2.2081"
   },
   "id": "alfakynz.linux-fullscreen-fix",
   "name": "Linux Fullscreen Fix",
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "developer": "Alfakynz",
-  "description": "A Geometry Dash mod that fixes fullscreen issues on Linux with Hyprland",
+  "description": "Fixes fullscreen issues on Linux & Hyprland",
   "tags": ["offline", "bugfix"],
   "links": {
     "source": "https://github.com/Alfakynz/Linux-Fullscreen-Fix"
+  },
+  "issues": {
+    "url": "https://github.com/Alfakynz/Linux-Fullscreen-Fix/issues",
+    "info": "If you encounter any issue, please report it on the GitHub issues page or on my Discord server."
   }
 }
