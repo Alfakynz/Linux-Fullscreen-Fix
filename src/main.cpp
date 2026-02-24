@@ -1,5 +1,5 @@
 #include <Geode/Geode.hpp>
-//#include <Geode/cocos/platform/win32/CCEGLView.h>
+//#include <Geode/binding/GameManager.hpp>
 #include "fullscreen.hpp"
 #include <thread>
 #include <chrono>
@@ -26,8 +26,7 @@ bool isWindowFullscreen(HWND hwnd) {
 
 /* Trying to find a way to work with the GD options
 bool isWindowFullscreen() {
-    auto view = cocos2d::CCEGLView::sharedOpenGLView();
-    return view && view->getIsFullscreen();
+    return GameManager::sharedState() -> getGameVariable("0025");
 }
 */
 
