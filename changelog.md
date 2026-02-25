@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.0
+
+- Fullscreen is now synchronized with user settings (with the game variable)
+
 ## v1.1.1
 
 - Update to the latest version of Geometry Dash and Geode
