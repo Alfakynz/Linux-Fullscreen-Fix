@@ -5,12 +5,13 @@
   },
   "id": "alfakynz.linux-fullscreen-fix",
   "name": "Linux Fullscreen Fix",
-  "version": "v1.2.0",
+  "version": "v1.2.1",
   "developer": "Alfakynz",
   "description": "Fixes fullscreen issues on Linux & Hyprland",
   "tags": ["offline", "bugfix"],
   "links": {
-    "source": "https://github.com/Alfakynz/Linux-Fullscreen-Fix"
+    "source": "https://github.com/Alfakynz/Linux-Fullscreen-Fix",
+    "community": "https://discord.gg/TcmUQHZ5U4"
   },
   "issues": {
     "url": "https://github.com/Alfakynz/Linux-Fullscreen-Fix/issues",

@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.1
+
+- Add Discord link
+
 ## v1.2.0
 
 - Fullscreen is now synchronized with user settings (with the game variable)
