@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.2
+
+- Use the enum GameVar instead 0025 (for Windowed mode)
+
 ## v1.2.1
 
 - Add Discord link
