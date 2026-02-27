@@ -10,7 +10,7 @@ static bool lastFullscreenState = false;
 
 bool isWindowFullscreen()
 {
-    return !GameManager::sharedState()->getGameVariable("0025");
+    return !GameManager::sharedState()->getGameVariable(GameVar::WindowedMode);
 }
 
 $execute
