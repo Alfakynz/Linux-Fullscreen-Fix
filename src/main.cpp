@@ -2,7 +2,6 @@
 #include <Geode/binding/GameManager.hpp>
 #include "fullscreen.hpp"
 #include <thread>
-#include <chrono>
 
 using namespace geode::prelude;
 

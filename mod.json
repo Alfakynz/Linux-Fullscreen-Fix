@@ -1,11 +1,11 @@
 {
-  "geode": "5.0.1",
+  "geode": "5.4.1",
   "gd": {
     "win": "2.2081"
   },
   "id": "alfakynz.linux-fullscreen-fix",
   "name": "Linux Fullscreen Fix",
-  "version": "v1.2.2",
+  "version": "v1.2.3",
   "developer": "Alfakynz",
   "description": "Fixes fullscreen issues on Linux & Hyprland",
   "tags": ["offline", "bugfix"],

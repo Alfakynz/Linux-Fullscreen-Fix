@@ -23,16 +23,16 @@ void applyFullscreen(HWND hwnd, bool enable)
         // Set fullscreen style
         SetWindowLongPtr(hwnd, GWL_STYLE, WS_POPUP | WS_VISIBLE);
 
-        MONITORINFO mi = {sizeof(mi)};
-        GetMonitorInfo(MonitorFromWindow(hwnd, MONITOR_DEFAULTTOPRIMARY), &mi);
+        int screenW = GetSystemMetrics(SM_CXSCREEN);
+        int screenH = GetSystemMetrics(SM_CYSCREEN);
 
         SetWindowPos(
             hwnd,
             HWND_TOP,
-            mi.rcMonitor.left,
-            mi.rcMonitor.top,
-            mi.rcMonitor.right - mi.rcMonitor.left,
-            mi.rcMonitor.bottom - mi.rcMonitor.top,
+            0,
+            0,
+            screenW,
+            screenH,
             SWP_FRAMECHANGED | SWP_SHOWWINDOW);
 
         isFullscreen = true;
